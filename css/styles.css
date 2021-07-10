@@ -722,6 +722,7 @@ body {
   align-items: center;
 
   cursor: pointer;
+  border: none;
 
   font-family: var(--main-font);
   font-style: normal;
@@ -937,6 +938,7 @@ body {
   margin-right: 8px;
 
   background: #ffffff;
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   cursor: pointer;
@@ -946,5 +948,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.button-close:hover,
+.button-close:focus {
+  fill: var(--accent-color);
 }
 /*-------------------endModalWindow------------*/
