@@ -434,17 +434,32 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <h2 class="form-title">Подпишитесь на рассылку</h2>
+          <form class="form js-subscribe-form">
+            <input class="input-form" type="text" name="email" placeholder="E-mail" autofocus />
+            <button class="form-btn" type="submit">
+              Подписаться
+              <span class="icon-form-btn">
+                <svg width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-iconsend"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
         <button class="button-close" data-modal-close>
-          <svg width="18px" height="18px">
+          <svg width="24px" height="24px">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/js-subscribe-form.js"></script>
   </body>
 </html>
