@@ -458,21 +458,36 @@
           </svg>
         </button>
         <h3 class="modal-window-form-title">Оставьте свои данные, мы вам перезвоним</h3>
-        <form class="modal-window-form js-modal-form">
+        <form class="modal-window-form js-modal-form" autocomplete="off">
           <div class="form-field">
-            <label for="name">Имя</label>
-            <input class="input-form-decor" type="text" name="name" id="name" autofocus />
+            <label class="form-label" for="name">Имя</label>
+            <input class="input-form-decor" type="text" name="name" id="name" />
+            <span class="modal-icon-svg">
+              <svg width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </span>
           </div>
           <div class="form-field">
-            <label for="tel">Телефон</label>
+            <label class="form-label" for="tel">Телефон</label>
             <input class="input-form-decor" type="tel" name="tel" id="tel" />
+            <span class="modal-icon-svg">
+              <svg width="18px" height="18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
           </div>
           <div class="form-field">
-            <label for="mail">Почта</label>
+            <label class="form-label" for="mail">Почта</label>
             <input class="input-form-decor" type="email" name="mail" id="mail" />
+            <span class="modal-icon-svg">
+              <svg width="18px" height="18px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </span>
           </div>
           <div class="form-field">
-            <label for="comment">Комментарий</label>
+            <label class="form-label" for="comment">Комментарий</label>
             <textarea
               class="text-area-decor"
               name="comment"
