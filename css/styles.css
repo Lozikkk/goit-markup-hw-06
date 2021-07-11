@@ -1098,6 +1098,26 @@ textarea {
 .text-area-decor:focus {
   border: 1px solid var(--accent-color);
 }
+.checkbox-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+}
+
+.checkbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+
+  cursor: pointer;
+
+  background-image: url(../images/check-box-img/vector.svg);
+}
+.checkbox-input:checked + .checkbox-icon {
+  background-image: url(../images/check-box-img/icon-check-done.svg);
+}
 .modal-form-btn {
   display: flex;
   align-items: center;
