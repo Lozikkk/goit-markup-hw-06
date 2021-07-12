@@ -1061,6 +1061,8 @@ textarea {
 
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
+
+  outline: none;
 }
 .input-form-decor:hover,
 .input-form-decor:focus {
