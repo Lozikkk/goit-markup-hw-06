@@ -437,7 +437,13 @@
         <div class="footer-form">
           <h2 class="form-title">Подпишитесь на рассылку</h2>
           <form class="form js-subscribe-form" autocomplete="off">
-            <input class="input-form" type="text" name="email" placeholder="mail@mail.com" />
+            <input
+              class="input-form"
+              type="text"
+              name="email"
+              placeholder="mail@mail.com"
+              required
+            />
             <button class="form-btn" type="submit">
               Подписаться
               <span class="icon-form-btn">
@@ -467,6 +473,8 @@
               name="name"
               id="name"
               placeholder="Oleksandr"
+              required
+              minlength="2"
             />
             <span class="modal-icon-svg">
               <svg width="18px" height="18px">
@@ -481,7 +489,10 @@
               type="tel"
               name="tel"
               id="tel"
-              placeholder="+38-000-000-00-00"
+              placeholder="067-000-00-00"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="067-000-00-00"
             />
             <span class="modal-icon-svg">
               <svg width="18px" height="18px">
@@ -494,9 +505,10 @@
             <input
               class="input-form-decor"
               type="email"
-              name="mail"
+              name="email"
               id="mail"
               placeholder="mail@mail.com"
+              required
             />
             <span class="modal-icon-svg">
               <svg width="18px" height="18px">
