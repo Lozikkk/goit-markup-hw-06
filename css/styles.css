@@ -879,8 +879,9 @@ body {
 }
 .portfolio-link-overlay:hover,
 .portfolio-link-overlay:focus {
-  transform: translateY(0);
-  transition: transform 250ms var(--timing-function);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link-overlay:hover .portfolio-thumb-text,
 .portfolio-link-overlay:focus .portfolio-thumb-text {
@@ -1022,6 +1023,8 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 .accept {
+  display: flex;
+  align-items: center;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -1111,7 +1114,7 @@ textarea {
 }
 
 .checkbox-icon {
-  display: inline-block;
+  display: inline-flex;
   width: 16px;
   height: 15px;
 
