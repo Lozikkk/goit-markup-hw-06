@@ -941,9 +941,8 @@ body {
   width: 30px;
   height: 30px;
 
-  transform: translateY(-50%);
-
   margin-right: 10px;
+  margin-top: 8px;
 
   background: #ffffff;
 
@@ -1025,6 +1024,7 @@ textarea {
 .accept {
   display: flex;
   align-items: center;
+
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -1035,7 +1035,9 @@ textarea {
 
   color: #757575;
 }
-
+.label-accept {
+  margin: 0 auto;
+}
 .form-link-pdf {
   font-family: var(--main-font);
   font-style: normal;
@@ -1094,6 +1096,7 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   margin-top: 4px;
+  height: 120px;
 
   transition-property: border;
 
